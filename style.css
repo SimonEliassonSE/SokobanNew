@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/ground.png");
+}
+
+.tile-wall {
+    background: url("../img/wall.png");
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+.tile-space {
+    background: url("../img/ground.png");
+}
+
+.tile-goal {
+    background-color: #131413;
+}
+
+.entity-player {
+    border-radius: 50%;
+    background: url("../img/player.png");
+}
+
+.entity-block {
+    background: url("../img/cate.png");
+    box-shadow: 1px 1px 5px #000000;
+    border: 1px solid #000000;
+}
+
+.keyContainer {
+    margin-top: 10px;
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+#keycounts {
+    font-weight: bolder; 
+}
+
+#count {
+    color: #fbff05;
+}
+
